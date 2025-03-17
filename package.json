@@ -23,6 +23,21 @@
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.1",
     "tailwindcss": "^3.0.7",
-    "typescript": "4.5.4"
-  }
+    "typescript": "^4.5.4"
+  },
+  "name": "rawlabel-main",
+  "version": "1.0.0",
+  "description": "Urban aesthetics, combined with a refreshing color palette and clean lines, makes the RAWLABEL template look stunningly appealing. The template features five(5) pages that answer the needs of a variety of music businesses and includes the beautiful record label website. As a record label company, your top priority certainly is to introduce new artists and their music, and the best way to do it is to share their music with your audience.  The theme allows you to showcase all you've got from various platforms like Spotify, SoundCloud, and similar.",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simojibou/sjmusiclabel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simojibou/sjmusiclabel/issues"
+  },
+  "homepage": "https://github.com/simojibou/sjmusiclabel#readme"
 }
