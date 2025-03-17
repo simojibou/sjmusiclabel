@@ -4,16 +4,17 @@ import { BsArrowUpRight } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
 
 function ContactForm() {
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_f7a680a', 'template_camukf6', e.target, 'uV022euKqicaOlgG1')
+    emailjs.sendForm('service_f7a680a', 'template_camukf6', e.currentTarget, 'uV022euKqicaOlgG1')
       .then((result) => {
         alert('Message Sent Successfully!');
       }, (error) => {
         alert('Failed to send message, please try again.');
       });
-    e.target.reset();
+
+    e.currentTarget.reset();
   };
 
   return (
